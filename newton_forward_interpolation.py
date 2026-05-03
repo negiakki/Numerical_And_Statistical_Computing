@@ -16,7 +16,7 @@ def newton_forward(x, y, value):
 
     result = y[0]
     u_term = 1
-    fact = 1
+    fact = 1 
 
     for i in range(1, n):
         u_term *= (u - i + 1)
